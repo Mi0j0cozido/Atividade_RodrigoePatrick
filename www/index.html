@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Atividade de PAM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="components/motor.js"></script>
+</head>
+<body>
+    <h1>REGISTRADOR DE JOGADORES
+        </h1>
+            <label for="nome">Nome do Jogador:   
+                </label>
+                    <input type="text" id="nome">
+            <label for="equipe">Equipe: 
+                    <input type="text" id="equipe">
+                </label>
+<br>
+<br>
+            <div class="marginkk">
+                        <button onclick="adicionarJogador()">Registrar Jogador 
+                            </button>
+                         <button onclick="limparLocalStorage()">Excluir registros
+                            </button>
+                         <button onclick="exibirJogadores()">Exibir Jogadores
+                            </button>
+                </div>
+        <h2>Jogadores: 
+            </h2>
+<p id="jogadores">
+    </p>  
+</body>
+</html>
